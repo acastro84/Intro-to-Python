@@ -1,0 +1,7 @@
+#This program prints a triangle using asterisks.
+# This prints 10 times using a diminishing range value
+# Used to print from bottom first them build on top. 
+for row in range(10):
+    for col in range(10-row):
+        print('*', end = " ")
+    print()
